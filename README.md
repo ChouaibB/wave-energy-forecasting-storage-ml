@@ -32,6 +32,24 @@ wave-energy-forecasting-storage-ml/
 
 ## Conda environment
 
+The environment is defined in `environment.yml`.
+
+The environment was created using:
+
+```text
+conda 26.3.2
+```
+
+Create and activate the environment with:
+
+```bash
+conda env create -f environment.yml
+conda activate wave-energy-storage-ml
+```
+
+The environment installs MHKiT from its GitHub source repository, so `git` is included as an environment dependency.
+
+A `requirements.txt` file is also provided as a package-version snapshot of the working environment. It is mainly included for transparency and reproducibility; `environment.yml` remains the recommended installation file.
 
 ---
 
