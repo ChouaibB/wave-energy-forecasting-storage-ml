@@ -63,7 +63,7 @@ A `requirements.txt` file is also provided as a package-version snapshot of the 
 
 ## Notebooks overview
 
-* 00 – Literature Map: Wave-Energy Forecasting, Uncertainty, and Storage-Aware Smoothing ([PDF](notebooks/pdf/00_literature_map.pdf) | [Notebook](notebooks/00_literature_map.ipynb))
+* 00 – Literature Map: Wave-Energy Forecasting, Uncertainty, and Storage-Aware Smoothing ([PDF](outputs/pdf/00_literature_map.pdf) | [Notebook](notebooks/00_literature_map.ipynb))
 
   Maps the literature motivation behind the repository, connecting BESS/grid-integration context with wave-energy forecasting, uncertainty estimation, WEC smoothing, and BESS/HESS relevance.
 
