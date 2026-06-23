@@ -12,6 +12,7 @@ dependencies:
       # Jupyter workflow
       - jupyterlab
       - ipykernel
+      - tabulate
 
       # Forecasting / machine learning
       - scikit-learn
