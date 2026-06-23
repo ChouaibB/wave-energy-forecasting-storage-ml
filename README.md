@@ -14,11 +14,14 @@ wave-energy-forecasting-storage-ml/
 ├── README.md
 ├── environment.yml
 ├── requirements.txt
-├── .gitignore
 ├── notebooks/
-├── data/
+│   └── 00_literature_map.ipynb
+├── data/                       # Not committed
 ├── outputs/
+│   └── pdf/                    # PDF render notebooks
 ├── references/
+│   ├── literature_map.csv
+│   └── references.bib
 └── src/
 ```
 
@@ -59,5 +62,9 @@ A `requirements.txt` file is also provided as a package-version snapshot of the 
 ---
 
 ## Notebooks overview
+
+* 00 – Literature Map: Wave-Energy Forecasting, Uncertainty, and Storage-Aware Smoothing ([PDF](notebooks/pdf/00_literature_map.pdf) | [Notebook](notebooks/00_literature_map.ipynb))
+
+  Maps the literature motivation behind the repository, connecting BESS/grid-integration context with wave-energy forecasting, uncertainty estimation, WEC smoothing, and BESS/HESS relevance.
 
 
