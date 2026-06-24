@@ -21,5 +21,8 @@ dependencies:
       # Utilities
       - tqdm
 
+      # Copernicus Marine data access
+      - copernicusmarine
+
       # Marine-energy toolkit from GitHub source, with all optional dependencies
       - "mhkit[all] @ git+https://github.com/MHKiT-Software/MHKiT-Python.git"
