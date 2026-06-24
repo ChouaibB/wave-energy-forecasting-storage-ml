@@ -24,5 +24,8 @@ dependencies:
       # Copernicus Marine data access
       - copernicusmarine
 
+      # Earth relief/bathymetry data for map
+      - cartopy
+
       # Marine-energy toolkit from GitHub source, with all optional dependencies
       - "mhkit[all] @ git+https://github.com/MHKiT-Software/MHKiT-Python.git"
