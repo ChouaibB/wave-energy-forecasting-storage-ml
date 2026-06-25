@@ -15,7 +15,8 @@ wave-energy-forecasting-storage-ml/
 ├── environment.yml
 ├── requirements.txt
 ├── notebooks/
-│   └── 00_literature_map.ipynb
+│   ├── 00_literature_map.ipynb
+│   └── 01_wave_data_preparation.ipynb
 ├── data/                       # Not committed
 ├── outputs/
 │   └── pdf/                    # PDF render notebooks
@@ -58,6 +59,7 @@ A `requirements.txt` file is also provided as a package-version snapshot of the 
 
 ## Data
 
+Data files are not committed to the repository. The wave observations used in the examples are downloaded and prepared in [`01_wave_data_preparation.ipynb`](notebooks/01_wave_data_preparation.ipynb), which documents the Copernicus Marine / EMODnet source, selected buoy, QC handling, and processed output generation.
 
 ---
 
@@ -67,4 +69,7 @@ A `requirements.txt` file is also provided as a package-version snapshot of the 
 
   Maps the literature motivation behind the repository, connecting BESS/grid-integration context with wave-energy forecasting, uncertainty estimation, WEC smoothing, and BESS/HESS relevance.
 
+* 01 – Wave Data Preparation: Copernicus/EMODnet In-Situ Sea-State Data for WEC Power Estimation ([PDF](outputs/pdf/01_wave_data_preparation.pdf) | [Notebook](notebooks/01_wave_data_preparation.ipynb))
+
+  Retrieves and prepares Copernicus Marine / EMODnet in-situ wave observations from the Leixões coastal buoy, including QC inspection, 30-minute time-grid alignment, and processed sea-state variables for later WEC power estimation and forecasting.
 
