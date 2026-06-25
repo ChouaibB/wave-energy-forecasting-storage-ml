@@ -12,6 +12,7 @@ dependencies:
       # Jupyter workflow
       - jupyterlab
       - ipykernel
+      - ipywidgets
       - tabulate
 
       # Forecasting / machine learning
