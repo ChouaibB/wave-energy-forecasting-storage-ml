@@ -16,10 +16,14 @@ wave-energy-forecasting-storage-ml/
 ├── requirements.txt
 ├── notebooks/
 │   ├── 00_literature_map.ipynb
-│   └── 01_wave_data_preparation.ipynb
+│   ├── 01_wave_data_preparation.ipynb
+│   └── 02_wec_power_estimation.ipynb
 ├── data/                       # Not committed
+│   ├── processed/
+│   └── raw/
 ├── outputs/
-│   └── pdf/                    # PDF render notebooks
+│   ├── figures/                # Key notebooks figures
+│   └── pdf/                    # PDF rendered notebooks
 ├── references/
 │   ├── literature_map.csv
 │   └── references.bib
@@ -27,7 +31,7 @@ wave-energy-forecasting-storage-ml/
 ```
 
 * `notebooks/` – main analysis and modelling notebooks.
-* `data/` – local folder for datasets, not committed.
+* `data/` – local folder for retrieved and processed data, not committed.
 * `outputs/` – generated figures, tables, and notebook outputs.
 * `references/` – literature notes and reference tables.
 * `src/` – optional helper functions.
@@ -72,4 +76,8 @@ Data files are not committed to the repository. The wave observations used in th
 * 01 – Wave Data Preparation: Copernicus/EMODnet In-Situ Sea-State Data for WEC Power Estimation ([PDF](outputs/pdf/01_wave_data_preparation.pdf) | [Notebook](notebooks/01_wave_data_preparation.ipynb))
 
   Retrieves and prepares Copernicus Marine / EMODnet in-situ wave observations from the Leixões coastal buoy, including QC inspection, 30-minute time-grid alignment, and processed sea-state variables for later WEC power estimation and forecasting.
+
+* 02 – WEC Power Estimation: Leixões Sea-State Characterization and Generic Power Matrix ([PDF](outputs/pdf/02_wec_power_estimation.pdf) | [Notebook](notebooks/02_wec_power_estimation.ipynb))
+
+  Explores Leixões sea-state height, period, direction, and spreading variables, then builds a simplified generic power-matrix-style WEC estimate. The resulting estimated WEC power signal is intended for later forecasting, uncertainty, and storage-smoothing notebooks, not as a validated device model.
 
