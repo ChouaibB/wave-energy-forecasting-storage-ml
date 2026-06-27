@@ -17,13 +17,17 @@ wave-energy-forecasting-storage-ml/
 ├── notebooks/
 │   ├── 00_literature_map.ipynb
 │   ├── 01_wave_data_preparation.ipynb
-│   └── 02_wec_power_estimation.ipynb
+│   ├── 02_wec_power_estimation.ipynb
+│   └── 03_forecasting_baselines.ipynb
 ├── data/                       # Not committed
 │   ├── processed/
 │   └── raw/
 ├── outputs/
-│   ├── figures/                # Key notebooks figures
-│   └── pdf/                    # PDF rendered notebooks
+│   ├── figures/
+│   ├── models/                  
+│   ├── notebook_03/
+│   ├── pdf/                    # PDF rendered notebooks
+│   └── tables/
 ├── references/
 │   ├── literature_map.csv
 │   └── references.bib
@@ -80,4 +84,6 @@ Data files are not committed to the repository. The wave observations used in th
 * 02 – WEC Power Estimation: Leixões Sea-State Characterization and Generic Power Matrix ([PDF](outputs/pdf/02_wec_power_estimation.pdf) | [Notebook](notebooks/02_wec_power_estimation.ipynb))
 
   Explores Leixões sea-state height, period, direction, and spreading variables, then builds a simplified generic power-matrix-style WEC estimate. The resulting estimated WEC power signal is intended for later forecasting, uncertainty, and storage-smoothing notebooks, not as a validated device model.
+
+* 03 – Forecasting Baselines: Short-Term Point Forecasts for Estimated WEC Power ([PDF](outputs/pdf/03_forecasting_baselines.pdf), [Notebook](notebooks/03_forecasting_baselines.ipynb)) — Builds power-only autoregressive forecasting baselines for the estimated WEC power series across 30 min, 1 h, 2 h, and 4 h horizons. Compares persistence, rolling mean, ridge regression, and random forest using chronological rolling-origin folds, test-set skill scores, forecast trajectories, and residual diagnostics to support the following uncertainty-analysis notebook.
 
