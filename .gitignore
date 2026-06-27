@@ -5,7 +5,7 @@ data/
 outputs/models/
 
 # Large generated Parquet outputs
-outputs/notebook_03/*.parquet
+outputs/notebook_*/*.parquet
 data/processed/folds/*.parquet
 
 ## DEFAULT GITHUB PYTHON .gitignore
