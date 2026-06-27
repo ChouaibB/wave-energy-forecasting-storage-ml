@@ -1,0 +1,3 @@
+Horizon,Coverage,Mean width (norm.),"Mean width (kW, 250 kW scale)","Median width (kW, 250 kW scale)",Interval score (norm.)
+30 min,0.99,0.104,26.0,26.8,0.109
+4 h,0.993,0.154,38.6,37.5,0.156
