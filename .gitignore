@@ -1,5 +1,13 @@
 ## ADDED TO .gitignore                                             
+
 data/
+# Generated fitted models
+outputs/models/
+
+# Large generated Parquet outputs
+outputs/notebook_03/*.parquet
+data/processed/folds/*.parquet
+
 ## DEFAULT GITHUB PYTHON .gitignore
 # Byte-compiled / optimized / DLL files
 __pycache__/
