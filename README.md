@@ -19,7 +19,8 @@ wave-energy-forecasting-storage-ml/
 │   ├── 01_wave_data_preparation.ipynb
 │   ├── 02_wec_power_estimation.ipynb
 │   ├── 03_forecasting_baselines.ipynb
-│   └── 04_prediction_intervals_uncertainty.ipynb
+│   ├── 04_prediction_intervals_uncertainty.ipynb
+│   └── 05_storage_smoothing_metrics.ipynb
 ├── data/                       # Not committed
 │   ├── processed/
 │   └── raw/
@@ -28,6 +29,7 @@ wave-energy-forecasting-storage-ml/
 │   ├── models/                  
 │   ├── notebook_03/
 │   ├── notebook_04/
+│   ├── notebook_05/
 │   ├── pdf/                    # PDF rendered notebooks
 │   └── tables/
 ├── references/
@@ -90,3 +92,6 @@ Data files are not committed to the repository. The wave observations used in th
 * 03 – Forecasting Baselines: Short-Term Point Forecasts for Estimated WEC Power ([PDF](outputs/pdf/03_forecasting_baselines.pdf), [Notebook](notebooks/03_forecasting_baselines.ipynb)) — Builds power-only autoregressive forecasting baselines for the estimated WEC power series across 30 min, 1 h, 2 h, and 4 h horizons. Compares persistence, rolling mean, ridge regression, and random forest using chronological rolling-origin folds, test-set skill scores, forecast trajectories, and residual diagnostics to support the following uncertainty-analysis notebook.
 
 * 04 – Prediction Intervals and Uncertainty for Short-Term Estimated WEC Power Forecasts ([PDF](outputs/pdf/04_prediction_intervals_uncertainty.pdf), [notebook](notebooks/04_prediction_intervals_uncertainty.ipynb)): Builds empirical prediction intervals from Notebook 03 calibration residuals, compares residual quantile, conformal-style, KDE residual, and global residual interval methods, and evaluates coverage, width, interval score, 250 kW-scale interpretation, and high-ramp behaviour.
+
+* 05 – Storage-Aware Smoothing Metrics for Short-Term Estimated WEC Power ([PDF](outputs/pdf/05_storage_smoothing_metrics.pdf), [notebook](notebooks/05_storage_smoothing_metrics.ipynb)): Evaluates simple storage-aware smoothing metrics for the estimated 250 kW WEC proxy. Compares no smoothing, observed-power smoothing, forecast-informed smoothing, and uncertainty-aware lower-bound smoothing using ramp-rate reduction, implied storage power rating, usable energy requirement, throughput, equivalent full cycles, and high-ramp case-study diagnostics.
+
