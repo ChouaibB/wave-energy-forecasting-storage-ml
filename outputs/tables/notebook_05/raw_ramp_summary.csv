@@ -1,0 +1,9 @@
+Metric,Value,Unit
+Mean absolute ramp,10.11,kW / 30 min
+95th percentile absolute ramp,43.71,kW / 30 min
+Maximum absolute ramp,249.85,kW / 30 min
+Mean absolute ramp rate,20.23,kW / h
+95th percentile ramp rate,87.42,kW / h
+High-ramp threshold,43.71,kW / 30 min
+High-ramp samples,308.0,
+High-ramp share,4.95,%

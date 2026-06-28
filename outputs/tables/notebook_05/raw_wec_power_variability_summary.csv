@@ -1,0 +1,13 @@
+Metric,Value,Unit
+Number of samples,6220,
+Start time,2025-02-02 01:00:00,
+End time,2025-06-30 23:30:00,
+Mean WEC power,40.02426539874249,kW
+Median WEC power,26.011541283510308,kW
+95th percentile WEC power,140.8275231181122,kW
+Maximum WEC power,249.8503743757805,kW
+Mean absolute ramp,10.104135595310114,kW per 30 min
+95th percentile absolute ramp,43.482662430395344,kW per 30 min
+Maximum absolute ramp,249.85037437578046,kW per 30 min
+High-ramp threshold,43.482662430395344,kW per 30 min
+High-ramp samples,311,

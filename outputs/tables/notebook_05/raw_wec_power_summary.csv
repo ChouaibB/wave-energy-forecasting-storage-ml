@@ -1,0 +1,9 @@
+Metric,Value,Unit
+Samples,6220,
+Continuous segments,62,
+Start time,2025-02-02 01:00,
+End time,2025-06-30 23:30,
+Mean power,40.02,kW
+Median power,26.01,kW
+95th percentile power,140.83,kW
+Maximum power,249.85,kW
