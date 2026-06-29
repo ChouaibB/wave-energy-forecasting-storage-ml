@@ -1,5 +1,7 @@
 # Wave Energy Forecasting and Storage-Aware Smoothing
 
+**Author:** Chouaib Benchraka
+
 This repository contains a small set of Jupyter notebooks exploring short-term wave-energy forecasting and storage-aware smoothing.
 
 The focus is on working with open wave-resource data, estimating simplified wave energy converter power output, evaluating forecasting and uncertainty methods, and connecting the results to BESS/HESS grid-integration metrics.
@@ -93,4 +95,8 @@ Data files are not committed to the repository. The wave observations used in th
 * 04 – Prediction Intervals and Uncertainty for Short-Term Estimated WEC Power Forecasts ([PDF](outputs/pdf/04_prediction_intervals_uncertainty.pdf) | [notebook](notebooks/04_prediction_intervals_uncertainty.ipynb)): Builds empirical prediction intervals from Notebook 03 calibration residuals, compares residual quantile, conformal-style, KDE residual, and global residual interval methods, and evaluates coverage, width, interval score, 250 kW-scale interpretation, and high-ramp behaviour.
 
 * 05 – Storage-Aware Smoothing Metrics for Short-Term Estimated WEC Power ([PDF](outputs/pdf/05_storage_smoothing_metrics.pdf) | [notebook](notebooks/05_storage_smoothing_metrics.ipynb)): Evaluates simple storage-aware smoothing metrics for the estimated 250 kW WEC proxy. Compares no smoothing, observed-power smoothing, forecast-informed smoothing, and uncertainty-aware lower-bound smoothing using ramp-rate reduction, implied storage power rating, usable energy requirement, throughput, equivalent full cycles, and high-ramp case-study diagnostics.
+
+## AI-assisted development disclosure
+
+This repository was developed by the author with AI-assisted support from ChatGPT for project planning, code refactoring suggestions, Markdown wording, debugging, and consistency review. The author selected the project scope, read and interpreted the literature, chose the modelling workflow, reviewed and edited the generated suggestions, executed the notebooks, checked the outputs, and remains responsible for the final analysis, code, interpretation, and repository content.
 
