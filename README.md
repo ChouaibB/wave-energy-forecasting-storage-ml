@@ -42,8 +42,7 @@ wave-energy-forecasting-storage-ml/
 * `data/` – local folder for retrieved and processed data, not committed.
 * `outputs/` – generated figures, tables, and notebook outputs.
 * `references/` – literature notes and reference tables.
-* `src/` – optional helper functions.
-
+* `src/` – lightweight helper functions used to keep the notebooks readable while preserving the main analysis flow.
 ---
 
 ## Conda environment
@@ -71,7 +70,7 @@ A `requirements.txt` file is also provided as a package-version snapshot of the 
 
 ## Data
 
-Data files are not committed to the repository. The wave observations used in the examples are downloaded and prepared in [`01_wave_data_preparation.ipynb`](notebooks/01_wave_data_preparation.ipynb), which documents the Copernicus Marine / EMODnet source, selected buoy, QC handling, and processed output generation.
+Data files are not committed to the repository. The wave observations used in the examples are downloaded and prepared in Notebook 01 ([PDF](outputs/pdf/01_wave_data_preparation.pdf) | [Notebook](notebooks/01_wave_data_preparation.ipynb)), which documents the Copernicus Marine / EMODnet source, selected buoy, QC handling, and processed output generation.
 
 ---
 
@@ -79,7 +78,7 @@ Data files are not committed to the repository. The wave observations used in th
 
 * 00 – Literature Map: Wave-Energy Forecasting, Uncertainty, and Storage-Aware Smoothing ([PDF](outputs/pdf/00_literature_map.pdf) | [Notebook](notebooks/00_literature_map.ipynb))
 
-  Maps the literature motivation behind the repository, connecting BESS/grid-integration context with wave-energy forecasting, uncertainty estimation, WEC smoothing, and BESS/HESS relevance.
+  Maps the literature motivation behind the repository, connecting wave-energy forecasting, uncertainty estimation, WEC smoothing, and storage-aware BESS/HESS grid-integration metrics.
 
 * 01 – Wave Data Preparation: Copernicus/EMODnet In-Situ Sea-State Data for WEC Power Estimation ([PDF](outputs/pdf/01_wave_data_preparation.pdf) | [Notebook](notebooks/01_wave_data_preparation.ipynb))
 
@@ -89,9 +88,9 @@ Data files are not committed to the repository. The wave observations used in th
 
   Explores Leixões sea-state height, period, direction, and spreading variables, then builds a simplified generic power-matrix-style WEC estimate. The resulting estimated WEC power signal is intended for later forecasting, uncertainty, and storage-smoothing notebooks, not as a validated device model.
 
-* 03 – Forecasting Baselines: Short-Term Point Forecasts for Estimated WEC Power ([PDF](outputs/pdf/03_forecasting_baselines.pdf), [Notebook](notebooks/03_forecasting_baselines.ipynb)) — Builds power-only autoregressive forecasting baselines for the estimated WEC power series across 30 min, 1 h, 2 h, and 4 h horizons. Compares persistence, rolling mean, ridge regression, and random forest using chronological rolling-origin folds, test-set skill scores, forecast trajectories, and residual diagnostics to support the following uncertainty-analysis notebook.
+* 03 – Forecasting Baselines: Short-Term Point Forecasts for Estimated WEC Power ([PDF](outputs/pdf/03_forecasting_baselines.pdf) | [Notebook](notebooks/03_forecasting_baselines.ipynb)) — Builds power-only autoregressive forecasting baselines for the estimated WEC power series across 30 min, 1 h, 2 h, and 4 h horizons. Compares persistence, rolling mean, ridge regression, and random forest using chronological rolling-origin folds, test-set skill scores, forecast trajectories, and residual diagnostics to support the following uncertainty-analysis notebook.
 
-* 04 – Prediction Intervals and Uncertainty for Short-Term Estimated WEC Power Forecasts ([PDF](outputs/pdf/04_prediction_intervals_uncertainty.pdf), [notebook](notebooks/04_prediction_intervals_uncertainty.ipynb)): Builds empirical prediction intervals from Notebook 03 calibration residuals, compares residual quantile, conformal-style, KDE residual, and global residual interval methods, and evaluates coverage, width, interval score, 250 kW-scale interpretation, and high-ramp behaviour.
+* 04 – Prediction Intervals and Uncertainty for Short-Term Estimated WEC Power Forecasts ([PDF](outputs/pdf/04_prediction_intervals_uncertainty.pdf) | [notebook](notebooks/04_prediction_intervals_uncertainty.ipynb)): Builds empirical prediction intervals from Notebook 03 calibration residuals, compares residual quantile, conformal-style, KDE residual, and global residual interval methods, and evaluates coverage, width, interval score, 250 kW-scale interpretation, and high-ramp behaviour.
 
-* 05 – Storage-Aware Smoothing Metrics for Short-Term Estimated WEC Power ([PDF](outputs/pdf/05_storage_smoothing_metrics.pdf), [notebook](notebooks/05_storage_smoothing_metrics.ipynb)): Evaluates simple storage-aware smoothing metrics for the estimated 250 kW WEC proxy. Compares no smoothing, observed-power smoothing, forecast-informed smoothing, and uncertainty-aware lower-bound smoothing using ramp-rate reduction, implied storage power rating, usable energy requirement, throughput, equivalent full cycles, and high-ramp case-study diagnostics.
+* 05 – Storage-Aware Smoothing Metrics for Short-Term Estimated WEC Power ([PDF](outputs/pdf/05_storage_smoothing_metrics.pdf) | [notebook](notebooks/05_storage_smoothing_metrics.ipynb)): Evaluates simple storage-aware smoothing metrics for the estimated 250 kW WEC proxy. Compares no smoothing, observed-power smoothing, forecast-informed smoothing, and uncertainty-aware lower-bound smoothing using ramp-rate reduction, implied storage power rating, usable energy requirement, throughput, equivalent full cycles, and high-ramp case-study diagnostics.
 
