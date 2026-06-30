@@ -6,15 +6,15 @@ horizon_steps,horizon_label,model_setting,n_folds,mean_calibration_rmse,mean_cal
 1,30 min,"RandomForest (max_depth=6, min_samples_leaf=3)",1,0.03356158493695176,0.022811360895765125
 1,30 min,Persistence,5,0.034468527724717125,0.01980595027842265
 2,1 h,Ridge (alpha=0.1),2,0.028016491588764028,0.02005347732694733
-2,1 h,"RandomForest (max_depth=6, min_samples_leaf=5)",4,0.0332451720379873,0.022800959444108725
+2,1 h,"RandomForest (max_depth=6, min_samples_leaf=5)",4,0.033245172037987304,0.022800959444108725
 2,1 h,RollingMean (feature=power_roll_mean_3),5,0.03329391814984939,0.021455454454504398
 2,1 h,Ridge (alpha=10.0),3,0.03657179204843411,0.025155819673802083
 2,1 h,Persistence,5,0.03659090404679388,0.021893538362738576
-2,1 h,"RandomForest (max_depth=6, min_samples_leaf=3)",1,0.03882853051237562,0.024901002736013086
+2,1 h,"RandomForest (max_depth=6, min_samples_leaf=3)",1,0.03882853051237562,0.02490100273601308
 4,2 h,"RandomForest (max_depth=12, min_samples_leaf=3)",1,0.03150076555569957,0.02351382218391695
 4,2 h,Ridge (alpha=0.1),2,0.03312646054587906,0.02374985654917743
-4,2 h,"RandomForest (max_depth=None, min_samples_leaf=3)",1,0.03850574138279406,0.0260482254634989
-4,2 h,"RandomForest (max_depth=6, min_samples_leaf=3)",1,0.03901704108287429,0.027473667024242688
+4,2 h,"RandomForest (max_depth=None, min_samples_leaf=3)",1,0.038505741382794056,0.02604822546349889
+4,2 h,"RandomForest (max_depth=6, min_samples_leaf=3)",1,0.039017041082874286,0.027473667024242688
 4,2 h,RollingMean (feature=power_roll_mean_3),5,0.03910146919669545,0.02543225552590998
 4,2 h,Persistence,5,0.03927571360725066,0.024382144342912526
 4,2 h,Ridge (alpha=10.0),3,0.04228633402375012,0.029475697971890914
@@ -25,4 +25,4 @@ horizon_steps,horizon_label,model_setting,n_folds,mean_calibration_rmse,mean_cal
 8,4 h,Ridge (alpha=10.0),4,0.04855866839769542,0.03558723427958593
 8,4 h,"RandomForest (max_depth=6, min_samples_leaf=3)",2,0.051155192268754104,0.03570786080130536
 8,4 h,"RandomForest (max_depth=None, min_samples_leaf=5)",1,0.05802429313286124,0.03790797134415486
-8,4 h,"RandomForest (max_depth=6, min_samples_leaf=5)",2,0.058085925354436754,0.038612438917220646
+8,4 h,"RandomForest (max_depth=6, min_samples_leaf=5)",2,0.058085925354436754,0.03861243891722064
