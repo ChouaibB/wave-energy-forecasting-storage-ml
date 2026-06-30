@@ -1,0 +1,2 @@
+fold_id,segment_id,ramp_time,raw_ramp_kw_per_step,abs_raw_ramp_kw_per_step,context_hours_before_after,window_start,window_end
+1,h1_fold1_seg7,2025-06-01 21:30:00,47.94822322524195,47.94822322524195,12,2025-06-01 09:30:00,2025-06-02 09:30:00
