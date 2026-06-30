@@ -75,7 +75,6 @@ lxml==6.1.1
 MarkupSafe==3.0.3
 matplotlib==3.11.0
 matplotlib-inline==0.2.2
-mhkit==1.0.1
 mistune==3.3.2
 narwhals==2.22.1
 nbclient==0.11.0

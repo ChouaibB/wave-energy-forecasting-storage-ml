@@ -6,7 +6,6 @@ channels:
 dependencies:
   - python=3.12
   - pip
-  - git
 
   - pip:
       # Jupyter workflow
@@ -30,6 +29,3 @@ dependencies:
 
       # Battery simulation
       - simses==2.1.1
-
-      # Marine-energy toolkit from GitHub source, with all optional dependencies
-      - "mhkit[all] @ git+https://github.com/MHKiT-Software/MHKiT-Python.git"
