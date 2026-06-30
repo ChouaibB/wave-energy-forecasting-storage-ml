@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use or refer to this repository, please cite it as below."
+type: software
+title: "Wave Energy Forecasting and Storage-Aware Smoothing"
+authors:
+  - family-names: "Benchraka"
+    given-names: "Chouaib"
+    orcid: "https://orcid.org/0000-0002-1167-7848"
+version: "1.0.0"
+date-released: "2026-07-01"
+license: "MIT"
+repository-code: "https://github.com/ChouaibB/wave-energy-forecasting-storage-ml"
+abstract: "A reproducible portfolio workflow for short-term estimated wave-energy converter power forecasting, empirical prediction intervals, storage-aware smoothing metrics, and a simple SimSES BESS replay demonstration."
+keywords:
+  - wave energy
+  - wave energy converter
+  - forecasting
+  - prediction intervals
+  - uncertainty
+  - battery energy storage
+  - BESS
+  - storage smoothing
+  - SimSES
+  - portfolio
