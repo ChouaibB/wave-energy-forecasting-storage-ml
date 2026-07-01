@@ -1,6 +1,6 @@
 # Wave Energy Forecasting and Storage-Aware Smoothing
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21101152.svg)](https://doi.org/10.5281/zenodo.21101152)
+[![DOI](https://zenodo.org/badge/1277046992.svg)](https://doi.org/10.5281/zenodo.21101151)
 
 **Author:** Chouaib Benchraka
 
