@@ -1,5 +1,7 @@
 # Wave Energy Forecasting and Storage-Aware Smoothing
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21101152.svg)](https://doi.org/10.5281/zenodo.21101152)
+
 **Author:** Chouaib Benchraka
 
 This repository contains a small set of Jupyter notebooks exploring short-term wave-energy forecasting and storage-aware smoothing.
